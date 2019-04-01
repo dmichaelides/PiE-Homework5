@@ -35,7 +35,7 @@ for findnonprime in range(101,1,-1):
 				if findnonprime not in collection: # since we are looping, we want to keep the list unique. 
 					collection.append(findnonprime) # collect non-prime numbers. 
 
-collection.append(2) # the reason we manually add 2, is because the 'Find Non Prime' loop logic does not work for number 2.
+collection.append(1) # the reason we manually add 1, is because the 'Find Non Prime' loop logic does not work for number 1.
 
 # Identify the index number for the Prime numbers, and replace the value in the FBPList to 'Prime'. 
 for findprimeindex in range(100):
